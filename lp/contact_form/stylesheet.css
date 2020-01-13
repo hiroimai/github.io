@@ -1,0 +1,167 @@
+
+/*-------  ここからcontact  --------*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  
+  width:100%;
+  text-align:center;
+  
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #b3aeb5;
+}
+
+.section-title {
+  color: #b3aeb5;
+}
+
+
+/* ----contact-form---- */
+.contact-form input[type="text"], .contact-form textarea {
+  margin: 0;
+  padding:  10px;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.08);
+  border: none;
+  width: 90%;
+  color: #202020;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: all .3s;
+  margin-bottom: 20px;
+  padding: 15px;
+  
+}
+
+textarea {
+  height: 400px;
+}
+
+.contact-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+.submit-form input[type="text"], .submit-form textarea {
+  margin: 0;
+  padding:  10px;
+  vertical-align: middle;
+  background: rgba(129, 129, 129, 0.473);
+  border: none;
+  width: 85%;
+  color: #202020;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 10px;
+  box-shadow: none;
+  transition: all .3s;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.submit-form {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+
+
+/* ----messageform---- */
+
+#messageform td{
+padding-bottom: 50px;
+text-align: left;
+}
+
+/* -----footer---- */
+.a {
+  color: #b3aeb5;
+}
+
+.footer-info li {
+  margin-bottom: 16px;
+  margin: 10px;
+  display: inline-block;
+  color: #b3aeb5;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 18px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* ----button---- */
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  border: none;
+  transform: scale(0.95);
+  transition: all .6s ease-out;
+} 
+
+.button {
+  background: linear-gradient(-45deg, #22e3bb 0%, #2196F3 100%);
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 10px;
+  width: 58%;
+}
+
+/* ---- submit-comp ---- */
+
+.submit-comp {
+  margin: 100px;
+}
+
+
+/* ----------------------- wide ----------------------- */
+@media screen and (min-width:1040px) {
+  textarea {
+    height: 300px;
+  }
+  
+  .contact-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 58%;
+  }
+
+  .submit-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 58%;
+  }
+
+  .button {
+   width: 240px;
+  }
+}
